@@ -55,20 +55,3 @@ You can adjust the following parameters in the code:
 2. Progress Bar: After entering a valid IP, a progress bar will start filling. The bar will display alternating / and \ characters to simulate a dynamic effect.
 3. Random Failure: At each update of the progress bar, there’s a small chance that the operation might fail. If it does, the progress bar stops, and "Hack Failed!!" is displayed.
 4. Customizable Simulation: You can modify the failure rate, delay, and progress bar size to suit your needs.
-
-Example Usage
-Sample Output:
-```lua
-Please enter IP: 192.168.1.1
-| ████/---------------------- | 18.75%  
-| ████████\------------------ | 37.50%
-| ██████████/----------------- | 56.25% 
-| █████████████\-------------- | 75.00% 
-Hack Failed!!
-
-Please enter IP: 192.168.2.5
-| ██████████/----------------- | 25.00%  
-| █████████████\-------------- | 50.00%  
-| ████████████████/----------- | 75.00%  
-| ███████████████████\-------- | 100.00%
-```
