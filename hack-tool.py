@@ -2,7 +2,7 @@ import random
 import time
 
 # Failure rate configuration: 
-# 100 = 1% failure chance, 200 = 0.5% failure chance, etc.
+# 100 = 1% failure chance, 200 = 0.5% failure chance, (100 / x ).
 FAILRATE: int = 100  
 PREFIX1: str = "█"
 PREFIX2: str = "-"
