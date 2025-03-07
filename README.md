@@ -55,3 +55,10 @@ You can adjust the following parameters in the code:
 2. Progress Bar: After entering a valid IP, a progress bar will start filling. The bar will display alternating / and \ characters to simulate a dynamic effect.
 3. Random Failure: At each update of the progress bar, there’s a small chance that the operation might fail. If it does, the progress bar stops, and "Hack Failed!!" is displayed.
 4. Customizable Simulation: You can modify the failure rate, delay, and progress bar size to suit your needs.
+## Examples
+- Successful
+
+  ![Successful](https://cdn.discordapp.com/attachments/856081412679532545/1347553507049472042/ezgif-64fe01bceb583d.gif?ex=67cc3e80&is=67caed00&hm=c5a12a92dc0c49d53223e0bda4bcc9402b57fbb6d1a7c767ef58e80c64fb27eb&)
+- Failed
+
+  ![Failed](https://cdn.discordapp.com/attachments/856081412679532545/1347552849495588936/ezgif-69b0abf66ddb32.gif?ex=67cc3de3&is=67caec63&hm=88f73017d85194ea1390479bb3076c3f798164076619f6c2554929cbb032f5ec&)
