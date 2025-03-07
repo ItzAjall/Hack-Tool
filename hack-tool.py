@@ -50,6 +50,7 @@ def ProgressBar() -> None:
     This function simulates a progress bar that fills up over time.
     It also checks for failure (based on `failed()` function), and stops the progress if failure occurs.
     """
+    flag: bool = False
     # Loop to update progress bar
     for i in range(1, PROGRESSBAR_SIZE + 1):
         # Calculate the percentage of completion
@@ -61,14 +62,14 @@ def ProgressBar() -> None:
         # Check if the process has failed
         if failed() == 1:
             # If failure occurs, display a message and stop the progress
-            print("\nHack Failed!!")
+            flag = True
             break
         
         # Wait for the specified delay before updating the progress again
         time.sleep(DELAY)
     
     # Print a newline after the progress bar is finished (or interrupted)
-    print("\n")  
+    print("\nHack Sucssesful!!\n") if not flag else print("\nHack Failed!!\n")
 
 # Main loop to ask the user for an IP address and simulate progress bar
 while True:
